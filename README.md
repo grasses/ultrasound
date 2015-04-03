@@ -7,7 +7,7 @@ Ultrasound是树莓派（Raspberry Pi）的一个超声波模块的包。
 (切记，先安装好树莓派GPIO环境)
 
 
-<div style="text-align:center;"><img style="width=:600px;" src="http://xiaocao.u.qiniudn.com/github/2015-04-03-ultrasound.jpg"></div>
+![超声波模块](http://xiaocao.u.qiniudn.com/github/2015-04-03-ultrasound.jpg)
 
 
 ------------------------
