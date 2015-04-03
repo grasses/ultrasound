@@ -1,6 +1,8 @@
 # About
 
-Ultrasound是树莓派（Raspberry Pi）的一个超声波模块的包，主要功能超声波模块测距、速度，加速度。
+Ultrasound是树莓派（Raspberry Pi）的一个超声波模块的包。
+
+主要功能超声波模块测距、速度、加速度，性能稳定，精确，可手动调节精度。
 
 (切记，先安装好树莓派GPIO环境)
 
@@ -44,7 +46,9 @@ You can see as example:
     	sensor = ultrasound.Ultrasound( trig, echo, time_break)
    	 	while True:
         	distance = int(sensor.get_distance())
-        	print distance
+        	speed = str(sensor.get_speed(time_break))
+        	print 'distance==>', distance
+        	print 'speed==>', speed
         	time.sleep(0.04)
     
     if __name__ == "__main__":
